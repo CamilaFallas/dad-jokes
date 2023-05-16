@@ -5,17 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dad Jokes</title>
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
   <div class="container">
+    <img class="container__img" src="./images/dad.jpeg">
     <div class="random-joke">
-      <button class="random-joke__btn">Get another joke!</button>
+      <p class="random-joke__p"></p>
+      <button class="random-joke__btn btn">Get another joke!</button>
     </div>
     <div class="search-joke">
-
+      <input class="input" required type="search" id="search" placeholder="Search a Joke">
+      <button class="search-joke__btn btn">Search</button>
+      <div class="search-joke__body"></div>
     </div>
   </div>
-  <script src="scripts/main.js"></script>
+  <script type="module" defer src="./main.js"></script>
 </body>
 </html>

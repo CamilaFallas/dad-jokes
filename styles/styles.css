@@ -1,0 +1,48 @@
+/* GENERAL  */
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 40%;
+  font-size: 32px;
+}
+
+.container__img {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  background-color: white;
+  padding: 12px 12px;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* RANDOM JOKE */
+.random-joke {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* SEARCH A JOKE */
+.search-joke {
+  margin-top: 20px;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 50%;
+  font-size: 24px;
+  border-radius: 10px;
+}
