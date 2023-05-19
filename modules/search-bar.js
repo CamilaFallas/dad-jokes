@@ -19,4 +19,3 @@ export async function searchBar(input) {
 };
 
 export default searchBar;
-

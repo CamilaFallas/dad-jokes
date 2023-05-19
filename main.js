@@ -27,7 +27,7 @@ button.addEventListener('click', randomJoke);
 // GET DOM 
 const goButton = document.querySelector('.search-joke__btn')
 
-// FUNCTION
+// EVENTS LISTENER
 goButton.addEventListener('click', () => {
   const input = document.querySelector('#search').value
   searchBar(input)
