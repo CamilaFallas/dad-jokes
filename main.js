@@ -5,7 +5,7 @@ import searchBar from './modules/search-bar.js'
 //************** RANDOM JOKE **************//
 
 // GET DOM 
-let randomjokeText = document.querySelector('.random-joke__p');
+let randomjokeText = document.querySelector('.random-joke__btn-joke');
 let button = document.querySelector('.random-joke__btn')
 
 // FUNCTION
