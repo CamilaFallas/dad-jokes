@@ -8,18 +8,20 @@
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-  <div class="container">
-    <img class="container__img" src="./images/dad.jpeg">
-    <div class="random-joke">
-      <a class="random-joke__btn-joke btn-joke"></a>
-      <button class="random-joke__btn btn">Get another joke!</button>
+  <main>
+    <div class="container">
+      <img class="container__img" src="./images/dad.jpeg">
+      <div class="random-joke">
+        <a href="./product.html" class="random-joke__a btn-joke"></a>
+        <button class="random-joke__btn btn">Get another joke!</button>
+      </div>
+      <div class="search-joke">
+        <input class="input" required type="search" id="search" placeholder="Search a Joke">
+        <button class="search-joke__btn btn">Search</button>
+        <div class="search-joke__body"></div>
+      </div>
     </div>
-    <div class="search-joke">
-      <input class="input" required type="search" id="search" placeholder="Search a Joke">
-      <button class="search-joke__btn btn">Search</button>
-      <div class="search-joke__body"></div>
-    </div>
-  </div>
-  <script type="module" defer src="./main.js"></script>
+  </main>
+  <script type="module" defer src="./script/main.js"></script>
 </body>
 </html>

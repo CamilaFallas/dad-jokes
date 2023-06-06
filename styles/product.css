@@ -1,0 +1,38 @@
+.product-container {
+  display: flex;
+}
+
+.product-options__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-options__btn {
+  width: 30%;
+  height: 30%;
+}
+
+.product-options__img {
+  width: 100%;
+}
+
+.productShow {
+  position: relative;
+  width: 60%;
+}
+
+#productShow__img {
+  width: 100%;
+}
+
+#productShow__p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
